@@ -141,7 +141,7 @@ font-size: medium;
 }
 
 .company_about ul li{
-    padding: 8px;
+    padding: 4px;
 }
 
 .company_socialmedia  ul{
@@ -239,7 +239,103 @@ margin-bottom: 30px;
     margin: 50px;
 }
 
-/*imageslides*/
+
+/* responsive */
+
+
+@media only screen and (max-width: 636px) and (max-width: 500px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .navbar ul{
+        height: 230px;
+        flex-direction: column;
+    }
+
+    .slider{
+        width: 485px;
+        height: 300px;
+    }
+
+    .products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .footer {
+        background-color: #F5F5F5;
+        display: flex;
+        flex-direction: column;
+        width: 485px;
+        margin-bottom: 5px;
+    }
+
+   .footer span,p{
+display: none;
+   }
+
+    .company_socialmedia  ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company_about ul li{
+        padding: 3px;
+    }
+
+
+
+
+    .icon{
+        font-size: 10px;
+        width: 25pxpx;
+    }
+
+    .news_form {
+        text-align: center;
+    }
+
+    .news_form input{
+        height: 35px;
+    }
+
+    .newletter h4{
+        font-size: 18px;
+    }
+    
+    .news_form button{
+        margin-bottom: 2px;
+        background-color: #000;
+        color: white;
+        border: none;
+        height: 35px;
+        text-align: center;
+    }
+
+
+    .company_about ul li{
+        font-size: 15px;
+    }
+
+    .company_socialmedia {
+        margin-left: 12px;
+    }
+
+
+    .company_about ul h4{
+        font-size: 18px;
+    }
+
+    .company_socialmedia h4{
+        font-size: 18px;
+    }
+    
+    
+}
 
 
 
