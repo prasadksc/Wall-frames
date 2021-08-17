@@ -1,0 +1,246 @@
+/* navbar */
+
+.navbar_logo{
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+}
+
+
+.nav-item .active{
+  background-color: transparent;
+}
+
+.login{
+list-style-type: none;
+font-size: medium;
+}
+
+
+
+
+/* products */
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin: 20px 20px;
+}
+
+
+/* product */
+
+.product_link {
+    text-decoration: none;
+}
+
+
+.product  img{
+
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+
+.product_info{
+    margin-top: 12px;
+}
+
+.product_info h6,span{
+    color: #000;
+}
+
+
+/*productslist*/
+.productsList_banner{
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+}
+
+
+/*productdetails*/
+.productPage{
+    margin-top: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+}
+
+.productpage_info{
+    display: flex;
+    margin-left: 200px;
+}
+
+
+.productpage_info img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.productpage_about{
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.productpage_about h4{
+    margin-bottom: 10px;
+}
+
+
+.productpage_about hr{
+    height:18px;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 4px;
+    color: #000;
+    background-color: #000;
+    margin-bottom: 10px;
+}
+
+
+
+.productpage_about h5{
+    font-size: large;
+}
+
+.productpage_about button{
+    border: none;
+    background: black;
+    border-radius: 35px;
+    height: 30px;
+    width: 100px;
+    color: white;
+}
+
+.aboutproduct {
+    margin: 18px 0 18px 200px ;
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+}
+
+.company{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.company li{
+    list-style-type: none;
+    font-weight: normal;
+}
+
+.company_about ul li{
+    padding: 8px;
+}
+
+.company_socialmedia  ul{
+    display: flex;
+}
+
+.company_socialmedia li {
+    padding: 2px;
+}
+
+.icon{
+    font-size: 1rem;
+    width: 50px;
+}
+
+.news_form input{
+ 
+    height: 30px;
+}
+
+.news_form button{
+    background-color: #000;
+    color: white;
+    border: none;
+    height: 32px;
+    text-align: center;
+}
+
+
+.footer span,p{
+    margin-top: 20px;
+    margin-left: 235px;
+    font-weight: lighter;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+/* login form*/
+
+.loginform{
+    margin : 0 auto;
+    width: 30%;
+    background-color: #FFFAFA;
+}
+
+.loginform h2{
+    margin-top: 18px;
+    text-align: center;
+}
+
+
+.login_logo{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+.login_logo img{
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.register_link{
+text-align: center;
+margin-bottom: 30px;
+
+}
+
+.register_link button{
+    margin-bottom: 30px;
+}
+
+.loginform_data{
+    margin: 25px;
+}
+
+
+/*register form*/
+
+.registerform h2{
+    margin-top: 18px;
+    text-align: center;
+}
+
+.registerform{
+    margin : 0 auto;
+    width: 30%;
+    background-color: #FFFAFA;
+}
+
+
+.registerform_data{
+    margin: 50px;
+}
+
+/*imageslides*/
+
+
+
+
