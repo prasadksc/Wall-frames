@@ -243,7 +243,7 @@ margin-bottom: 30px;
 /* responsive */
 
 
-@media only screen and (max-width: 636px) and (max-width: 500px){
+@media only screen and (max-width:800px) and (max-width:636px){
     .navbar{
         display: flex;
         flex-direction: column;
@@ -256,22 +256,21 @@ margin-bottom: 30px;
     }
 
     .slider{
-        width: 485px;
+        width: 400px;
         height: 300px;
     }
 
     .products{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .footer {
         background-color: #F5F5F5;
         display: flex;
         flex-direction: column;
-        width: 485px;
-        margin-bottom: 5px;
+        width: 400px;
     }
 
    .footer span,p{
@@ -332,6 +331,11 @@ display: none;
 
     .company_socialmedia h4{
         font-size: 18px;
+    }
+
+    .imageslides{
+        width: 400px;
+        height: 300px;
     }
     
     

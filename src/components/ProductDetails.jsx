@@ -39,7 +39,9 @@ const ProductDetails = (props) => {
                 <h5>Description</h5>
                 <span>{product.description}</span>
             </div>
-            <ImageSlides/>
+            <div className="imageslides">
+                <ImageSlides/>
+            </div>
         </div>
     );
 }
