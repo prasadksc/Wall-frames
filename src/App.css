@@ -354,6 +354,10 @@ display: none;
         margin: 0 auto;
     }
 
+    .aboutproduct{
+        margin: 0 auto;
+    }
+
     .productsList_banner{
         width: 100%;
         object-fit: cover;
