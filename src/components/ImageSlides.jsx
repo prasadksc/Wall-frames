@@ -9,7 +9,7 @@ function ImageSlides() {
     <div className="slider">
           <Carousel
             data={Images}
-            time={1500}
+            time={2000}
             width="100%"
             height="400px"
             automatic={true}
